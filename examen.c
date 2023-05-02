@@ -3,13 +3,19 @@
 
 int main(int argc, char const *argv[])
 {
-    int n, sum;
+    int n, sum, count = 0;
     do /*Este es el ciclo que se repetira hasta que el usuario ponga cero*/
     {
+        for (int j = 0; j <= 0; j++)
+        {
+            count = count + 1;
+            
+            printf("Escribir el digito %d:", count);
+            scanf("%i", &n);
+        }
+        
         for (int i = 0; i <= 0; i++) /*En este ciclo se realiza la operacion*/
         {
-            printf("Escribir el digito:");
-            scanf("%i", &n);
             sum = sum + n;
         }
     
